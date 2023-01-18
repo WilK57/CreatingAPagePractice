@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>CSS Relational Selectors</title>
+		<style>
+			.john {
+			color: pink;
+			}
+			
+			h1+p{
+			 font-size: 20px;
+			}
+			
+			section>p{
+				color: blue;
+			}
+			
+			h1~p{
+				color: green;
+			
+		</style>
+	</head>
+	
+	<body>
+	
+		<h1>This is my first h1</h1>
+		<p>My first p<p>
+		<p>My second p</p>
+		<h1>This is my second h1</h1>
+	<section>
+		<p>p in a section</p>
+		<h1>h1 in a section</h1>
+		<p>p following a h1 in a section</p>
+	</section>
+	<section>
+	<p>This is my p in a section</p>
+	<div>
+		<p>This is my p in a div</p>
+	</div>
+	</section>
+	<section>
+	<p>my second section section p</p>
+	</section>
+	
+	<p>above</p>
+	<h1>This is my h1</h1>
+	<p>This is my p following my h1</p>
+	
+	<p class="john">Here is a decendent selector</p>
+	
+	
+	</body>
+</html>
