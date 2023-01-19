@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>CSS Combination Selectors </title>
+		<style>
+			section.red{
+			color: red;
+			}
+			
+			h1, h2, h3{
+			color: blue;
+			}
+			
+			h1, h2.big{
+		    font-size: 35px;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<section class="red">
+		<p>My p in a section with the class red</p>
+		</section>
+		
+		<section>
+		<p>My p in another section</p>
+		</section>
+		
+		<p class="red">Outside of any section</p>
+	
+	<h1>h1</h1>
+	<h2 class="big">h2</h2>
+	<h2>h2 no big class</h2>
+	<h3>h3</h3>
+	
+	</body>
+</html>
