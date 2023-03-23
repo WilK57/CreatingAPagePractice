@@ -1,4 +1,12 @@
-body {
-  font-family: "Times New Roman", Times, serif;
-  background-color: #f2f2f2;
+body{
+	background-color: #f2f2f2;
 }
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  
+}
+p {
+   font-family: "Garamond", serif;
+}
+
